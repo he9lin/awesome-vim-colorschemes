@@ -168,12 +168,12 @@ cal <sid>h('TooLong'          , s:g8 , ''   , s:t8 , ''   , 'none'      , ''  )
 cal <sid>h('WarningMsg'       , s:g8 , s:g0 , s:t8 , s:t0 , 'none'      , ''  )
 
 " ORANGE for preliminary elements
-cal <sid>h('Define'           , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
+cal <sid>h('Define'           , s:g9 , ''   , s:t9 , ''   , 'bold'      , ''  )
 cal <sid>h('IncSearch'        , s:g9 , s:g0 , s:t9 , s:t0 , 'reverse'   , ''  )
 cal <sid>h('Include'          , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 cal <sid>h('Macro'            , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 cal <sid>h('PreCondit'        , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
-cal <sid>h('PreProc'          , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
+cal <sid>h('PreProc'          , s:g9 , ''   , s:t9 , ''   , 'bold'      , ''  )
 cal <sid>h('SpellCap'         , ''   , ''   , s:t0 , s:t9 , 'undercurl' , s:g9)
 cal <sid>h('Title'            , s:g9 , ''   , s:t9 , ''   , 'none'      , ''  )
 
@@ -186,8 +186,8 @@ cal <sid>h('Todo'             , s:gA , s:g6 , s:tA , s:t6 , 'reverse'   , ''  )
 cal <sid>h('Conditional'      , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 cal <sid>h('DiffAdd'          , s:gB , s:g0 , s:tB , s:t0 , 'reverse'   , ''  )
 cal <sid>h('Exception'        , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
-cal <sid>h('Keyword'          , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
-cal <sid>h('Label'            , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
+cal <sid>h('Keyword'          , s:gB , ''   , s:tB , ''   , 'bold'      , ''  )
+cal <sid>h('Label'            , s:gB , ''   , s:tB , ''   , 'bold'      , ''  )
 cal <sid>h('ModeMsg'          , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 cal <sid>h('MoreMsg'          , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 cal <sid>h('Operator'         , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
@@ -199,8 +199,8 @@ cal <sid>h('Statement'        , s:gB , ''   , s:tB , ''   , 'none'      , ''  )
 cal <sid>h('SpellLocal'       , ''   , ''   , s:t0 , s:tC , 'undercurl' , s:gC)
 cal <sid>h('StorageClass'     , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
 cal <sid>h('Structure'        , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
-cal <sid>h('Type'             , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
-cal <sid>h('Typedef'          , s:gC , ''   , s:tC , ''   , 'none'      , ''  )
+cal <sid>h('Type'             , s:gC , ''   , s:tC , ''   , 'bold'      , ''  )
+cal <sid>h('Typedef'          , s:gC , ''   , s:tC , ''   , 'bold'      , ''  )
 
 " BLUE for constants
 cal <sid>h('Boolean'          , s:gD , ''   , s:tD , ''   , 'none'      , ''  )
@@ -221,8 +221,8 @@ cal <sid>h('SpellRare'        , ''   , ''   , s:t0 , s:tE , 'undercurl' , s:gE)
 cal <sid>h('Tag'              , s:gE , ''   , s:tE , ''   , 'none'      , ''  )
 
 " PINK for object names
-cal <sid>h('Function'         , s:gF , ''   , s:tF , ''   , 'none'      , ''  )
-cal <sid>h('Identifier'       , s:gF , ''   , s:tF , ''   , 'none'      , ''  )
+cal <sid>h('Function'         , s:gF , ''   , s:tF , ''   , 'italic'    , ''  )
+cal <sid>h('Identifier'       , s:gF , ''   , s:tF , ''   , 'italic'    , ''  )
 
 
 "=== OPTIONS ==================================================================

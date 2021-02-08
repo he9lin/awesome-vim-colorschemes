@@ -269,15 +269,15 @@ let s:normal_items = [
             \ "DiffDelete", "Directory", "Error", "ErrorMsg", "Identifier",
             \ "IncSearch", "LineNr", "MatchParen", "ModeMsg", "MoreMsg",
             \ "NonText", "Pmenu", "PmenuSbar", "PmenuSel",
-            \ "PmenuThumb", "PreProc", "Question", "Search", "SignColumn",
+            \ "PmenuThumb", "Question", "Search", "SignColumn",
             \ "Special", "SpecialKey", "Statement", "StatusLineNC", "TabLine",
-            \ "TabLineFill", "Todo", "Type", "VertSplit", "Visual",
-            \ "WarningMsg", "WildMenu",
+            \ "TabLineFill", "Todo", "VertSplit", "Visual",
+            \ "WarningMsg", "WildMenu"
             \ ]
 
 let s:bold_items = [
             \ "DiffText", "FoldColumn", "Folded", "StatusLine", "TabLineSel",
-            \ "Title", "CursorLineNr",
+            \ "Title", "CursorLineNr", "PreProc", "Type"
             \ ]
 
 let s:underline_items = [

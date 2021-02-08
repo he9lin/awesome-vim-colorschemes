@@ -49,7 +49,7 @@ hi Comment   guifg=#a0b0c0               gui=italic
 
 " Konstanten
 hi Constant  guifg=#a07040
-hi String    guifg=#4070a0 
+hi String    guifg=#4070a0
 hi Number    guifg=#40a070
 hi Float     guifg=#70a040
 "hi Statement guifg=#0070e0 gui=NONE
@@ -58,7 +58,7 @@ hi Statement  guifg=#007020 gui=bold
 
 
 " HTML: arguments
-hi Type       guifg=#e5a00d gui=italic
+hi Type       guifg=#e5a00d gui=bold
 " Python: Standard exceptions, True&False
 hi Structure  guifg=#007020 gui=italic
 hi Function   guifg=#06287e gui=italic
@@ -81,8 +81,8 @@ hi Special    guifg=#70a0d0 gui=italic
 
 hi Operator   guifg=#408010
 
-" color of <TAB>s etc...  
-"hi SpecialKey guifg=#d8a080 guibg=#e8e8e8 gui=italic  
+" color of <TAB>s etc...
+"hi SpecialKey guifg=#d8a080 guibg=#e8e8e8 gui=italic
 hi SpecialKey guifg=#d0b0b0 guibg=#f0f0f0 gui=none
 
 " Diff

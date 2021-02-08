@@ -20,14 +20,14 @@ if ($TERM =~ '256' || &t_Co >= 256) || has('gui_running')
   hi Conceal          ctermbg=NONE ctermfg=250  guibg=NONE    guifg=#bcbcbc cterm=NONE           gui=NONE
   hi Constant         ctermbg=NONE ctermfg=208  guibg=NONE    guifg=#ff8700 cterm=NONE           gui=NONE
   hi Error            ctermbg=160  ctermfg=255  guibg=#d70000 guifg=#ffffff cterm=bold           gui=bold
-  hi Identifier       ctermbg=NONE ctermfg=20   guibg=NONE    guifg=#0000d7 cterm=NONE           gui=NONE
+  hi Identifier       ctermbg=NONE ctermfg=20   guibg=NONE    guifg=#0087ff cterm=NONE           gui=NONE
   hi Ignore           ctermbg=NONE ctermfg=NONE guibg=NONE    guifg=NONE    cterm=NONE           gui=NONE
-  hi PreProc          ctermbg=NONE ctermfg=30   guibg=NONE    guifg=#008787 cterm=NONE           gui=NONE
+  hi PreProc          ctermbg=NONE ctermfg=30   guibg=NONE    guifg=#008787 cterm=bold           gui=bold
   hi Special          ctermbg=NONE ctermfg=35   guibg=NONE    guifg=#00af5f cterm=NONE           gui=NONE
   hi Statement        ctermbg=NONE ctermfg=69   guibg=NONE    guifg=#5f87ff cterm=NONE           gui=NONE
   hi String           ctermbg=NONE ctermfg=24   guibg=NONE    guifg=#005f87 cterm=NONE           gui=NONE
   hi Todo             ctermbg=228  ctermfg=234  guibg=#ffff87 guifg=#1c1c1c cterm=bold           gui=bold
-  hi Type             ctermbg=NONE ctermfg=90   guibg=NONE    guifg=#870087 cterm=NONE           gui=NONE
+  hi Type             ctermbg=NONE ctermfg=90   guibg=NONE    guifg=#870087 cterm=bold           gui=bold
   hi Underlined       ctermbg=NONE ctermfg=39   guibg=NONE    guifg=#00afff cterm=underline      gui=underline
 
   hi LineNr           ctermbg=251  ctermfg=234  guibg=#c6c6c6 guifg=#1c1c1c cterm=NONE           gui=NONE
@@ -73,7 +73,7 @@ if ($TERM =~ '256' || &t_Co >= 256) || has('gui_running')
   hi VertSplit        ctermbg=238  ctermfg=238  guibg=#444444 guifg=#444444 cterm=NONE           gui=NONE
   hi WildMenu         ctermbg=111  ctermfg=235  guibg=#87afff guifg=#262626 cterm=NONE           gui=NONE
 
-  hi Function         ctermbg=NONE ctermfg=33   guibg=NONE    guifg=#0087ff cterm=NONE           gui=NONE
+  hi Function         ctermbg=NONE ctermfg=33   guibg=NONE    guifg=#0000d7 cterm=italic         gui=italic
   hi SpecialKey       ctermbg=NONE ctermfg=244  guibg=NONE    guifg=#808080 cterm=NONE           gui=NONE
   hi Title            ctermbg=NONE ctermfg=22   guibg=NONE    guifg=#005f00 cterm=NONE           gui=NONE
 
