@@ -42,7 +42,7 @@ hi Character ctermfg=62 ctermbg=NONE cterm=NONE guifg=#5A5AE6 guibg=NONE gui=NON
 hi Comment ctermfg=240 ctermbg=NONE cterm=NONE guifg=#5C5E5F guibg=NONE gui=NONE
 hi Conditional ctermfg=205 ctermbg=NONE cterm=NONE guifg=#FF479F guibg=NONE gui=NONE
 hi Constant ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi Define ctermfg=205 ctermbg=NONE cterm=NONE guifg=#FF479F guibg=NONE gui=NONE
+hi Define ctermfg=205 ctermbg=NONE cterm=bold guifg=#FF479F guibg=NONE gui=bold
 hi DiffAdd ctermfg=231 ctermbg=79 cterm=bold guifg=#f8f8f2 guibg=#00CC95 gui=bold
 hi DiffDelete ctermfg=196 ctermbg=NONE cterm=NONE guifg=#F30000 guibg=NONE gui=NONE
 hi DiffChange ctermfg=231 ctermbg=221 cterm=NONE guifg=#f8f8f2 guibg=#F4D25D gui=NONE
@@ -50,14 +50,14 @@ hi DiffText ctermfg=231 ctermbg=221 cterm=bold guifg=#f8f8f2 guibg=#F4D25D gui=b
 hi ErrorMsg ctermfg=231 ctermbg=205 cterm=NONE guifg=#f8f8f0 guibg=#FF479F gui=NONE
 hi WarningMsg ctermfg=231 ctermbg=205 cterm=NONE guifg=#f8f8f0 guibg=#FF479F gui=NONE
 hi Float ctermfg=62 ctermbg=NONE cterm=NONE guifg=#5A5AE6 guibg=NONE gui=NONE
-hi Function ctermfg=50 ctermbg=NONE cterm=NONE guifg=#45FFC8 guibg=NONE gui=NONE
-hi Identifier ctermfg=87 ctermbg=NONE cterm=NONE guifg=#5CF1FF guibg=NONE gui=italic
+hi Function ctermfg=50 ctermbg=NONE cterm=italic guifg=#45FFC8 guibg=NONE gui=italic
+hi Identifier ctermfg=87 ctermbg=NONE cterm=NONE guifg=#5CF1FF guibg=NONE gui=NONE
 hi Keyword ctermfg=205 ctermbg=NONE cterm=NONE guifg=#FF479F guibg=NONE gui=NONE
 hi Label ctermfg=229 ctermbg=NONE cterm=NONE guifg=#FEF29E guibg=NONE gui=NONE
 hi NonText ctermfg=231 ctermbg=NONE cterm=NONE guifg=#2E2F31 guibg=#2E2F31 gui=NONE
 hi Number ctermfg=62 ctermbg=NONE cterm=NONE guifg=#5A5AE6 guibg=NONE gui=NONE
 hi Operator ctermfg=205 ctermbg=NONE cterm=NONE guifg=#FF479F guibg=NONE gui=NONE
-hi PreProc ctermfg=205 ctermbg=NONE cterm=NONE guifg=#FF479F guibg=NONE gui=NONE
+hi PreProc ctermfg=205 ctermbg=NONE cterm=bold guifg=#FF479F guibg=NONE gui=bold
 hi Special ctermfg=231 ctermbg=NONE cterm=NONE guifg=#f8f8f2 guibg=NONE gui=NONE
 hi SpecialKey ctermfg=231 ctermbg=235 cterm=NONE guifg=#2E2F31 guibg=#2E2F31 gui=NONE
 hi Statement ctermfg=205 ctermbg=NONE cterm=NONE guifg=#FF479F guibg=NONE gui=NONE
@@ -66,7 +66,7 @@ hi String ctermfg=229 ctermbg=NONE cterm=NONE guifg=#FEF29E guibg=NONE gui=NONE
 hi Tag ctermfg=205 ctermbg=NONE cterm=NONE guifg=#FF479F guibg=NONE gui=NONE
 hi Title ctermfg=231 ctermbg=NONE cterm=bold guifg=#f8f8f2 guibg=NONE gui=bold
 hi Todo ctermfg=33 ctermbg=NONE cterm=inverse,bold guifg=#007AFF guibg=NONE gui=inverse,bold
-hi Type ctermfg=87 ctermbg=NONE cterm=NONE guifg=#5CF1FF guibg=NONE gui=NONE
+hi Type ctermfg=87 ctermbg=NONE cterm=bold guifg=#5CF1FF guibg=NONE gui=bold
 hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
 hi rubyClass ctermfg=205 ctermbg=NONE cterm=NONE guifg=#FF479F guibg=NONE gui=NONE
 hi rubyFunction ctermfg=50 ctermbg=NONE cterm=NONE guifg=#45FFC8 guibg=NONE gui=NONE
@@ -119,9 +119,9 @@ hi TabLine      guifg=#666666 guibg=#2E2F31 gui=none
 hi TabLineSel   guifg=WHITE guibg=#2E2F31 gui=none
 
 " Elixir {{{
-hi elixirAtom ctermfg=87 ctermbg=NONE cterm=NONE guifg=#5CF1FF guibg=NONE gui=italic"
-hi elixirModuleDeclaration ctermfg=87 ctermbg=NONE cterm=NONE guifg=#5CF1FF guibg=NONE gui=italic"
-hi elixirAlias ctermfg=87 ctermbg=NONE cterm=NONE guifg=#5CF1FF guibg=NONE gui=italic"
+hi elixirAtom ctermfg=87 ctermbg=NONE cterm=NONE guifg=#5CF1FF guibg=NONE gui=NONE
+hi elixirModuleDeclaration ctermfg=87 ctermbg=NONE cterm=NONE guifg=#5CF1FF guibg=NONE gui=bold
+hi elixirAlias ctermfg=87 ctermbg=NONE cterm=NONE guifg=#5CF1FF guibg=NONE gui=NONE
 hi elixirInterpolationDelimiter ctermfg=50 ctermbg=NONE cterm=NONE guifg=#45FFC8 guibg=NONE gui=NONE
 hi elixirStringDelimiter ctermfg=229 ctermbg=NONE cterm=NONE guifg=#FEF29E guibg=NONE gui=NONE
 "}}}
