@@ -125,7 +125,7 @@ endfunction
   call s:hi('Define',                             s:purple, '',       'bold',      '')
   call s:hi('Delimiter',                          s:brown,  '',       '',          '')
   call s:hi('Float',                              s:orange, '',       '',          '')
-  call s:hi('Function',                           s:blue,   '',       '',          '')
+  call s:hi('Function',                           s:blue,   '',       s:italic,    '')
 
   call s:hi('Identifier',                         s:cyan,   '',       '',          '')
   call s:hi('Include',                            s:blue,   '',       '',          '')
